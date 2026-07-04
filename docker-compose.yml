@@ -54,7 +54,7 @@ services:
     volumes:
       - ./config:/etc/logstash/conf.d
     ports:
-      - "5010:5000"
+      - "5000:5000"
     command: logstash -f /etc/logstash/conf.d/logstash.conf
     networks:
       - elastic
