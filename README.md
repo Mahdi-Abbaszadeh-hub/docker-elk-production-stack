@@ -46,7 +46,7 @@ docker-elk-production-stack/
 │   └── logstash.conf       # Logstash pipeline: input → filter → output
 ├── .env.example            # Template for environment variables (safe to commit)
 ├── .env                    # Your actual credentials (DO NOT commit — in .gitignore)
-
+├── .gitignore
 ├── docker-compose.yml      # Defines all services, networks, and volumes
 ├── LICENSE
 └── README.md
