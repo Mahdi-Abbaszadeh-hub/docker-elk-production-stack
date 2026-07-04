@@ -49,7 +49,7 @@ services:
 
 volumes:
   esdata1:
-    driver: bridge
+    driver: local
 
 networks:
   elastic:
